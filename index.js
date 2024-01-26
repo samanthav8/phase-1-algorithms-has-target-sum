@@ -18,6 +18,12 @@ function hasTargetSum(array, target) {
 
 /* 
   Write the Big O time complexity of your function here
+  Our inner loop performs n iterations for every teration of the outer loop, we end up with O(n * n) or O(n²) 
+  (quadratic) for the time complexity of this algorithm.In terms of space complexity, the amount of memory
+   needed grows linearly with the size of the input array. We don't need to create any additional data structures
+    to store information. So we end up with O(n).
+
+
 */
 
 /* 
